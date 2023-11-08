@@ -17,8 +17,11 @@ function App() {
 
   return (
     <div className="App">
+      <div className="title">
+      CLASE #8 KAMBPCODE: VERCEL + REPO GITHUB + API
+      </div>
       <div className='searchBox'>
-        <input className='searchBoxInput' placeholder='Buscar imagenes en ingles' onChange={e => setValor(e.target.value)} />
+        <input className='searchBoxInput' placeholder='Buscador de imagenes de fotografia... deben ser frase en ingles' onChange={e => setValor(e.target.value)} />
         <button onClick={() => buscarResultados()} className='searchBoxBtn'>BUSCAR</button>
       </div>
 

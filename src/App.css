@@ -3,7 +3,7 @@
   margin: auto;
   padding: 10px;
   margin-top: 1rem;
-  background-color: black;
+  background-color: darkslateblue;
   display: flex;
 }
 
@@ -19,12 +19,15 @@
   color: white;
   width: 20%;
   border: 2px solid darkslateblue;
+  
 }
 
 .main__content {
   width: 100%;
   margin: auto;
-  margin-top: 1rem;
+  margin-top: 10%;
+  gap: 10%;
+
 }
 
 .mainContent .mainContentGrid {
@@ -39,4 +42,13 @@
   aspect-ratio: 1;
   object-fit: cover;
   object-position: center center;
+}
+
+.title {
+  text-align: center;
+  background-color: darkslateblue;
+  padding: 10px;
+  color: white;
+  width: 100%;
+  border: 2px solid darkslateblue;
 }
