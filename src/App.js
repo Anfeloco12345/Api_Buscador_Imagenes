@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <div className="title">
-      CLASE #8 KAMBPCODE: VERCEL + REPO GITHUB + API
+      CLASE #8 KAMBCODE: VERCEL + REPO GITHUB + API
       </div>
       <div className='searchBox'>
         <input className='searchBoxInput' placeholder='Buscador de imagenes de fotografia con api.unsplash.com... debe ser frase o palabra en ingles' onChange={e => setValor(e.target.value)} />
@@ -35,6 +35,9 @@ function App() {
             })
           }
         </div>
+      </div>
+      <div className="footer">
+      by Andres Lozano Correa
       </div>
     </div>
   );

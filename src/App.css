@@ -5,6 +5,7 @@
   margin-top: 1rem;
   background-color: darkslateblue;
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .searchBox .searchBoxInput {
@@ -33,7 +34,7 @@
 .mainContent .mainContentGrid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 1px;
+  gap: 10px;
 }
 
 .mainContent .mainContentGrid img {
@@ -45,6 +46,18 @@
 }
 
 .title {
+  text-align: center;
+  background-color: darkslateblue;
+  padding: 10px;
+  color: white;
+  width: 100%;
+  border: 2px solid darkslateblue;
+  font-weight: bolder;
+}
+
+.footer {
+  margin-top: 1rem;
+  gap: 10%;
   text-align: center;
   background-color: darkslateblue;
   padding: 10px;
